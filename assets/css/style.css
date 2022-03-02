@@ -208,7 +208,7 @@ body {
     border-radius: 20px 20px 0 0;
     border-bottom: 15px solid #f0f0f0;
     padding-top: 40px;
-    min-height: 600px;
+    min-height: 450px;
 }
 
 .transacao .container, .transacao-qrcode {
@@ -245,13 +245,13 @@ body {
 
 .transacao-qrcode img {
     width: 100%;
-    max-width: 300px;
+    max-width: 200px;
 }
 
 .transacao-qrcode p {
     font-size: 18px;
     font-weight: bold;
-    margin: 20px 0;
+    margin: 10px 0 0 0;
     text-align: center;
 }
 
@@ -262,7 +262,7 @@ body {
     font-size: 18px;
     font-weight: bold;
     border-radius: 10px;
-    margin: 50px 0 20px;
+    margin: 30px 0 20px;
     padding: 15px 150px;
     cursor: pointer;
 }
