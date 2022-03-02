@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/reset.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <title>PicPro</title>
+</head>
+
+<body>
+
+    <header class="cabecalho">
+
+        <div class="container">
+            <figure class="cabecalho-logoPicpro">
+                <img src="/assets/img/logo-picpro.png" alt="Logo PicPro">
+            </figure>
+            <figure class="cabecalho-logoLenzie">
+                <img src="/assets/img/logo-kenzie.png" alt="Logo Kenzie">
+            </figure>
+        </div>
+
+    </header>
+
+    <main>
+
+        <section class="detalhesConta">
+            <div class="container">
+    
+                <div class="detalhesConta-usuario">
+                    <div>
+                        <img id="user-pic" src="/assets/img/joao.lordelo.png" alt="Ícone do usuário">
+                        <p>Olá, <strong>@joao.lordelo</strong></p>
+                    </div>
+
+                    <div>
+                        <img src="/assets/img/presente.png" alt="Ícone Presente">
+                        <img src="/assets/img/chat.png" alt="Ícone Chat">
+                    </div>
+                </div>
+                
+    
+                <div class="detalhesConta-saldo">
+                    <div>
+                        <p>Saldo PicPay</p>
+                        <div class="visualizar-saldo">
+                            <strong>R$ 1,99</strong>
+                            <span><img src="/assets/img/visualizar.png" alt="Visualizar saldo"></span>
+                        </div>
+                    </div>
+                    <div><button>Extrato</button></div>
+                </div>
+    
+                <ul class="detalhesConta-opcoesTransacoes">
+                    <li class="detalhesConta-itemTransacoes -qrCode" id="1">
+                        <figure>
+                            <img src="/assets/img/qrcode.png" alt="Ícone QR Code">
+                        </figure>
+                        <p>QR Code</p>
+                    </li>
+                    <li class="detalhesConta-itemTransacoes -pix" id="2">
+                        <figure>
+                            <img src="/assets/img/pix.png" alt="Ícone Pix">
+                        </figure>
+                        <p>Pix</p>
+                    </li>
+                    <li class="detalhesConta-itemTransacoes -boleto" id="3">
+                        <figure>
+                            <img src="/assets/img/codigo.png" alt="Ícone Boleto">
+                        </figure>
+                        <p>Pagar Boleto</p>
+                    </li>
+                    <li class="detalhesConta-itemTransacoes -cobrar" id="4">
+                        <figure>
+                            <img src="/assets/img/cobrar-icon.png" alt="Ícone Cobrar">
+                        </figure>
+                        <p>Cobrar</p>
+                    </li>
+                </ul>
+
+            </div>
+
+        </section>
+
+        <section class="transacao">
+
+            <div class="container">
+
+                <div id="banner" class="transacao-inicial banner">
+                    <p>Selecione a forma de pagamento</p>
+                    <img src="/assets/img/banner.png" alt="Banner PicPay">
+                </div>
+
+                <div data-id="1" class="transacao-qrcode -center">
+                    <img src="/assets/img/qrcode-joao.lordelo.jpeg" alt="QR Code">
+                    <p>@joao.lordelo</p>
+                    <button>Cobre um amigo</button>
+                    <a href="#">Compartilhar meu código</a>
+                </div>
+
+                <div data-id="2" class="transacao-pix">
+                    <img src="/assets/img/pix-logo.png" alt="Logo Pix">
+                    <div class="transacao-opcao">
+                        <img src="/assets/img/pix1.png" alt="Ícone enviar Pix">
+                        <p>Envie por CPF/CNPJ, telefone, e-mail ou chave aleatória</p>
+                    </div>
+                    <div class="transacao-opcao">
+                        <img src="/assets/img/pix2.png" alt="Ícone enviar Pix">
+                        <p>Insira um código Pix Copia e Cola para enviar um pagamento</p>
+                    </div>
+                </div>
+
+                <div data-id="3" class="transacao-boleto">
+                    <img src="/assets/img/boleto.png" alt="">
+                    <h2>Pagar com código de barras</h2>
+                    <p>Você pode parcelar em até 12x no cartão ou usar seu saldo em carteira para pagar à vista.</p>
+                    <input type="text" placeholder="Insira o código de barras">
+                </div>
+
+                <div data-id="4" class="transacao-cobrar">
+                    <img src="/assets/img/cobrar.png" alt="">
+                    <h2>Cobrar</h2>
+                    <p>Divida a conta com os amigos de forma fácil!</p>
+                    <div class="transacao-opcao">
+                        <img src="/assets/img/picpay-icon.png" alt="Ícone PicPay">
+                        <p>
+                            <strong>Amigos no PicPay</strong> Divida e acompanhe um gasto com pessoas por aqui
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="rodape">
+
+        <div class="container">
+            <ul class="rodape-menu">
+                <li class="rodape-item">
+                    <a href="#">
+                        <img src="/assets/img/inicio.png" alt="Ícone início">
+                        <p>Início</p>
+                    </a>
+                </li>
+                <li class="rodape-item">
+                    <a href="#">
+                        <img src="/assets/img/carteira-icon.png" alt="Ícone carteira">
+                        <p>Carteira</p>
+                    </a>
+                </li>
+                <li class="rodape-item rodape-item-pagar">
+                    <a href="#">
+                        <img src="/assets/img/pagar.png" alt="Ícone pagar">
+                        <p>Pagar</p>
+                    </a>
+                </li>
+                <li class="rodape-item">
+                    <a href="#">
+                        <img src="/assets/img/bell.png" alt="Ícone notificaçoes">
+                        <p>Notificaçoes</p>
+                    </a>
+                </li>
+                <li class="rodape-item">
+                    <a href="#">
+                        <img src="/assets/img/bolsa.png" alt="Ícone store">
+                        <p>Store</p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="/assets/js/script.js"></script>
+</body>
+
+</html>
