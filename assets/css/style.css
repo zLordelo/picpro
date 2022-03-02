@@ -144,7 +144,7 @@ body {
 }
 
 .detalhesConta-itemTransacoes figure {
-    background-image: url(./assets/img/qrcode.png);
+    background-image: url(../assets/img/qrcode.png);
     background-size: auto;
     background-repeat: no-repeat;
 
@@ -154,35 +154,35 @@ body {
 }
 
 .-qrCode:hover figure {
-    background-image: url(./assets/img/qrcode-verde.png);
+    background-image: url(../assets/img/qrcode-verde.png);
 }
 
 .-pix:hover figure {
-    background-image: url(./assets/img/pix-verde.png);
+    background-image: url(../assets/img/pix-verde.png);
 }
 
 .-boleto:hover figure {
-    background-image: url(./assets/img/boleto-verde.png);
+    background-image: url(../assets/img/boleto-verde.png);
 }
 
 .-cobrar:hover figure {
-    background-image: url(./assets/img/cobrar-verde.png);
+    background-image: url(../assets/img/cobrar-verde.png);
 }
 
 .-qrCode figure {
-    background-image: url(./assets/img/qrcode.png);
+    background-image: url(../assets/img/qrcode.png);
 }
 
 .-pix figure {
-    background-image: url(./assets/img/pix.png);
+    background-image: url(../assets/img/pix.png);
 }
 
 .-boleto figure {
-    background-image: url(./assets/img/codigo.png);
+    background-image: url(../assets/img/codigo.png);
 }
 
 .-cobrar figure {
-    background-image: url(./assets/img/cobrar-icon.png);
+    background-image: url(../assets/img/cobrar-icon.png);
 }
 
 
