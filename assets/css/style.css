@@ -207,7 +207,7 @@ body {
     background-color: #fff;
     border-radius: 20px 20px 0 0;
     border-bottom: 15px solid #f0f0f0;
-    padding-top: 40px;
+    padding-top: 25px;
     min-height: 450px;
 }
 
@@ -246,6 +246,11 @@ body {
 .transacao-qrcode img {
     width: 100%;
     max-width: 200px;
+}
+
+.transacao-qrcode > div {
+    display: flex;
+    justify-content: center;
 }
 
 .transacao-qrcode p {
@@ -322,7 +327,7 @@ body {
     background-color: #f4f4f4;
     font-size: 16px;
     height: 50px;
-    padding: 0 80px;
+    padding: 0 20px;
     border-radius: 10px;
     border: 1px solid #d2d2d2;
     color: #000;
