@@ -2,8 +2,8 @@
 
 Projeto desenvolvido para o evento PicPro ministrado pelos instrutores da Kenzie Academy Brasil em parceria com o PicPay.
 
-Kenzie Academy Brasil - https://kenzie.com.br/
-PicPay - https://picpay.com/baixar-o-app-picpay
+- Kenzie Academy Brasil - https://kenzie.com.br/ 
+- PicPay - https://picpay.com/baixar-o-app-picpay
 
 ## O projeto
 
