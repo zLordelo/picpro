@@ -5,6 +5,10 @@ Projeto desenvolvido para o evento PicPro ministrado pelos instrutores da Kenzie
 - Kenzie Academy Brasil - https://kenzie.com.br/ 
 - PicPay - https://picpay.com/baixar-o-app-picpay
 
+## Visualize o projeto em:
+
+https://zlordelo.github.io/picpro/
+
 ## O projeto
 
 ### Estrutura de arquivos
